@@ -164,7 +164,7 @@ is_installed wine && echo wine is installed
 is_installed winetricks && echo winetricks is installed
 
 WINEPREFIX=$SBPFX wineboot
-WINEPREFIX=$SBPFX winetricks -q dotnet472 dxvk d3dcompiler_47
+WINEPREFIX=$SBPFX winetricks -q dotnet48 dxvk d3dcompiler_47
 
 # if interrupted by ctrl+c
 if [ "$?" -eq "130" ]; then
